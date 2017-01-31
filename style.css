@@ -3,22 +3,24 @@
   margin: 0 auto;
   max-width: 400px;
   background-color: #FFFFFF;
-  margin:20px 120px 20px 120px;
+  margin:20px 150px 20px 150px;
   padding: 30px;
 }
 
 h1
 {
   text-align: center;
-  font-size: 25px;
+  font-size: 28px;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
 
 .tagline
 {
   text-align: center;
   font-size: 15px;
+  margin-bottom: 0px;
 }
 
 body
@@ -29,23 +31,35 @@ body
 
 img
 {
-  width: 40px;
-  height: 40px;
-  padding-right: 14px;
-  padding-top: 12px;
+  width: 50px;
+  height: 50px;
+  padding-right: 10px;
+  padding-top: 10px;
 }
 
 h2
 {
-  font-size: 15px;
+  margin: 0 auto;
+  font-size: 20px;
   font-weight: bold;
   padding-bottom: 15px;
   border-bottom-style: solid;
   border-color: #CF965B;
+  border-width: 2px;
 }
 
 .city-description
 {
-  font-size: 10px;
+  font-size: 15px;
   margin-left: 25px;
+}
+
+a:link
+{
+  color: purple;
+}
+
+a:hover
+{
+  color: orange;
 }
